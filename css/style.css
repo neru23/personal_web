@@ -1,0 +1,212 @@
+:root {
+    --primarycolor: #3E7091;
+    --secondarycolor: #252a30;
+    --primaryDark: #1e4f70;
+}
+
+body {
+    background-color: var(--primarycolor);
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--primarycolor);
+}
+
+h2 {
+    font-weight: inherit;
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: white;
+}
+.nav-bg {
+    background-color: var(--secondarycolor);
+    padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.75);
+}
+
+.nav-principal a {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: inherit;
+    padding: 1.2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-principal a:hover {
+    border-radius: 50px;
+    color: var(--secondarycolor);
+    background-color: var(--primarycolor);
+    transition: ease-in-out .3s;
+}
+
+.contenedor {
+    background-color: var(--secondarycolor);
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.tarjetas {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-tarjetas {
+    height: 20rem;
+    width: 12rem;
+    background-color: var(--secondarycolor);
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem ;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.botones-certificados {
+    margin-bottom: 1rem;
+    color: var(--secondarycolor);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Didact Gothic', sans-serif;
+    padding: 1.2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: var(--primarycolor);
+}
+
+.botones-certificados:hover {
+    border-radius: 50px;
+    color: white;
+    background-color: var(--primaryDark);
+    transition: ease-in-out .3s;
+}
+
+@media (max-width: 1024px) {
+    .tarjetas {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.icon {
+    padding: 2.5rem;
+}
+
+.contenedor-redes {
+    height: 20rem;
+    width: 30%;
+    background-color: var(--secondarycolor);
+    padding: 1.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+    margin-right: 2rem ;
+    text-align: center;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-redes a {
+    font-size: 1.2rem;
+    font-family: 'Didact Gothic', sans-serif;
+    padding: 1.5rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor-contacto {
+    background-color: var(--secondarycolor);
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center;
+    border-radius: 50px; 
+     
+}
+#contact-title {
+    font-weight: inherit;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: white;
+}
+
+#whatsapp {
+    background-color:rgb(25, 126, 87);
+    border-radius: 50px;
+}
+#whatsapp:hover {
+    background-color:rgb(16, 90, 62) ;
+    transition: ease-in-out .3s;
+}
+
+#linked {
+    background-color:rgb(25, 81, 126);
+    border-radius: 50px;
+}
+#linked:hover {
+    background-color:rgb(13, 53, 99) ;
+    transition: ease-in-out .3s;
+}
+
+#tlg {
+    background-color:rgb(35, 140, 182);
+    border-radius: 50px;
+}
+#tlg:hover {
+    background-color:rgb(4, 90, 124) ;
+    transition: ease-in-out .3s;
+}
+
+#gmail {
+    background-color:rgb(175, 81, 75);
+    border-radius: 50px;
+}
+#gmail:hover {
+    background-color:rgb(156, 58, 58) ;
+    transition: ease-in-out .3s;
+}
+
+.tarjeta-redes {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
